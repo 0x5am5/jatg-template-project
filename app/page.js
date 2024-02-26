@@ -3,7 +3,7 @@ import { useContext } from "react";
 import Image from "next/image";
 import SilenceIsGolden from "./_components/SilenceIsGolden";
 import { HelloWorldContext } from "./_contexts/HelloWorld";
-import useActivePage from "./_reducers/useReduces";
+import useActivePage from "./_reducers/useReducers";
 
 export default function Home() {
   const { helloWorld, setHelloWorld } = useContext(HelloWorldContext);
