@@ -1,21 +1,7 @@
-"use client";
-import { useContext } from "react";
 import Image from "next/image";
 import SilenceIsGolden from "./_components/SilenceIsGolden";
-import { HelloWorldContext } from "./_contexts/HelloWorld";
-import useActivePage from "./_reducers/useReducers";
 
 export default function Home() {
-  const { helloWorld, setHelloWorld } = useContext(HelloWorldContext);
-  const { activePage } = useActivePage();
-
-  console.log(helloWorld);
-
-  useState(() => {
-    setHelloWorld("Hello, Jupiter and the Giraffe!");
-    console.log(helloWorld, activePage);
-  });
-
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">

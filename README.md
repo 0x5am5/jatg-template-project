@@ -1,16 +1,10 @@
-This is the Jupiter and the Giraffe boilerplate project. It uses Next.js, Tailwind and GSAP
+This is the Jupiter and the Giraffe boilerplate project. It uses Next.js, Tailwind and GSAP. We like bun because why not?
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
 bun dev
 ```
 
